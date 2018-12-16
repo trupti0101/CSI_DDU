@@ -1,0 +1,126 @@
+.nav-pills{
+  font-family:Lobster;
+  font-size:2.0em;
+  background-color:black;
+}
+html,
+body {
+  font-family: 'Times New Roman', sans-serif;
+  text-align: left-align
+}
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  background-color: #fff;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right:65px;
+  text-align: center;
+  
+}
+
+nav ul li a {
+  color: #411;
+  text-decoration: underline;
+  margin-right:5px;
+}
+
+nav ul li a:hover {
+  color: green;
+}
+
+.row{
+  padding-left:50vh;
+  padding-right:50vh;
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+  max-width:100%;
+  
+}
+
+#welcome-section {
+  background: white;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align:center;
+  font-family:'monospace',Helvetica;
+  font-style:italic;
+  font-size:25px;
+  }
+#History{
+  text-align:center;
+  font-style:italic;
+  color:rgb(0,0,0);
+  background:#fff;
+  width:100%;
+  padding-top: 25vh;
+  padding-bottom:10vh;
+  text-decoration:underline
+}
+
+#contact{
+  background:#fff;
+  padding-top: 20vh;
+  padding-bottom:25vh;
+  text-align:left;
+}
+#contact-details{
+  background:#fff; 
+  padding-top: 25vh;
+  padding-bottom:25vh;
+  text-align:center;
+ }
+#profile-link{
+  background:#66CDAA;
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 85px; 
+  border: 5px solid #A6B7B8;
+  width: 100px;
+  height: 100px;
+  border-radius:100%;
+  line-height: 100px;
+  text-align:center;
+} 
+#link{
+  padding-bottom:20vh;
+}
+
+footer {
+  padding-top: 20px;
+  background: #FFB6C1;
+  color: black;
+  line-height: 50px;
+  text-align:center;
+  font-size:20px;
+}
+
+
+
+@media only screen and (max-width: 367px) {
+  nav ul  {
+    text-align: center;
+  }
+  nav ul li{
+    margin:20px;
+  }
+}
+@media only screen and (max-width: 367px) {
+      #contact{
+    min-height:100px;
+  } 
+  
+}
+
+@media only screen and (max-width: 367px) {
+      #container{
+    min-height:100px;
+  } 
+  
+}
